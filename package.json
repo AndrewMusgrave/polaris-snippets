@@ -2,14 +2,14 @@
     "name": "polaris-snippets",
     "displayName": "Polaris Snippets",
     "description": "Snippets for the current release of polaris",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "publisher": "AndrewMusgrave",
     "repository": {
         "type": "git",
         "url": "https://github.com/AndrewMusgrave/polaris-snippets.git"
-      },
+    },
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.14.0"
     },
     "categories": [
         "Snippets"
@@ -17,20 +17,20 @@
     "contributes": {
         "snippets": [
             {
-              "language": "javascriptreact",
-              "path": "./snippets/snippets.json"
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
             },
             {
-              "language": "javascript",
-              "path": "./snippets/snippets.json"
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
             },
             {
-              "language": "typescript",
-              "path": "./snippets/snippets.json"
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
             },
             {
-              "language": "typescriptreact",
-              "path": "./snippets/snippets.json"
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.json"
             }
         ]
     }
