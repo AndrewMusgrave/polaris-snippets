@@ -1,0 +1,653 @@
+{
+    "AccountConnection": {
+        "prefix": "AccountConnection",
+        "body": "<AccountConnection $1/>",
+        "description": ""
+    },
+    "ActionList": {
+        "prefix": "ActionList",
+        "body": "<ActionList $1/>",
+        "description": ""
+    },
+    "AppProvider": {
+        "prefix": "AppProvider",
+        "body": [
+            "<AppProvider $1>",
+            "\t$2",
+            "</AppProvider>"
+        ],
+        "description": ""
+    },
+    "Avatar": {
+        "prefix": "Avatar",
+        "body": "<Avatar $1/>",
+        "description": ""
+    },
+    "Badge": {
+        "prefix": "Badge",
+        "body": [
+            "<Badge $1>",
+            "\t$2",
+            "</Badge>"
+        ],
+        "description": ""
+    },
+    "Banner": {
+        "prefix": "Banner",
+        "body": [
+            "<Banner $1>",
+            "\t$2",
+            "</Banner>"
+        ],
+        "description": ""
+    },
+    "Breadcrumbs": {
+        "prefix": "Breadcrumbs",
+        "body": "<Breadcrumbs breadcrumbs={$1} />",
+        "description": ""
+    },
+    "Button": {
+        "prefix": "Button",
+        "body": [
+            "<Button $1>",
+            "\t$2",
+            "</Button>"
+        ],
+        "description": ""
+    },
+    "ButtonGroup": {
+        "prefix": "ButtonGroup",
+        "body": [
+            "<ButtonGroup $1>",
+            "\t$2",
+            "</ButtonGroup>"
+        ],
+        "description": ""
+    },
+    "CalloutCard": {
+        "prefix": "CalloutCard",
+        "body": [
+            "<CalloutCard title={$1} illustration={$2} primaryAction={$3}>",
+            "\t$4",
+            "</CalloutCard>"
+        ],
+        "description": ""
+    },
+    "Caption": {
+        "prefix": "Caption",
+        "body": [
+            "<Caption>",
+            "\t$1",
+            "</Caption>"
+        ],
+        "description": ""
+    },
+    "Card": {
+        "prefix": "Card",
+        "body": [
+            "<Card $1>",
+            "\t$2",
+            "</Card>"
+        ],
+        "description": ""
+    },
+    "Card.Section": {
+        "prefix": "Card.Section",
+        "body": [
+            "<Card.Section $1>",
+            "\t$2",
+            "</Card.Section>"
+        ],
+        "description": ""
+    },
+    "Checkbox": {
+        "prefix": "Checkbox",
+        "body": "<Checkbox label={$1} />",
+        "description": ""
+    },
+    "Choice": {
+        "prefix": "Choice",
+        "body": [
+            "<Choice id={$1} label={$2}>",
+            "\t$3",
+            "</Choice>"
+        ],
+        "description": ""
+    },
+    "ChoiceList": {
+        "prefix": "ChoiceList",
+        "body": "<ChoiceList choices={$1} selected={$2} />",
+        "description": ""
+    },
+    "Collapsible": {
+        "prefix": "Collapsible",
+        "body": [
+            "<Collapsible id={$1} open={$2}>",
+            "\t$3",
+            "</Collapsible>"
+        ],
+        "description": ""
+    },
+    "ColorPicker": {
+        "prefix": "ColorPicker",
+        "body": "<ColorPicker color={$1} onChange={$2} />",
+        "description": ""
+    },
+    "Connected": {
+        "prefix": "Connected",
+        "body": [
+            "<Connected $1>",
+            "\t$2",
+            "</Connected>"
+        ],
+        "description": ""
+    },
+    "DataTable": {
+        "prefix": "DataTable",
+        "body": "<DataTable columnContentTypes={$1} headings={$2} rows={$3} />",
+        "description": ""
+    },
+    "DatePicker": {
+        "prefix": "DatePicker",
+        "body": "<DatePicker month={$1} year={$2} />",
+        "description": ""
+    },
+    "DescriptionList": {
+        "prefix": "DescriptionList",
+        "body": "<DescriptionList term={$1} description={$2} />",
+        "description": ""
+    },
+    "DisplayText": {
+        "prefix": "DisplayText",
+        "body": [
+            "<DisplayText $1>",
+            "\t$2",
+            "</DisplayText>"
+        ],
+        "description": ""
+    },
+    "DropZone": {
+        "prefix": "DropZone",
+        "body": [
+            "<DropZone $1>",
+            "\t$2",
+            "</DropZone>"
+        ],
+        "description": ""
+    },
+    "DropZone.FileUpload": {
+        "prefix": "DropZone.FileUpload",
+        "body": "<DropZone.FileUpload $1/>",
+        "description": ""
+    },
+    "EmptySearchResult": {
+        "prefix": "EmptySearchResult",
+        "body": "<EmptySearchResult title={$1} />",
+        "description": ""
+    },
+    "EmptyState": {
+        "prefix": "EmptyState",
+        "body": [
+            "<EmptyState image={$1} action={$2}>",
+            "\t$3",
+            "</EmptyState>"
+        ],
+        "description": ""
+    },
+    "EventListener": {
+        "prefix": "EventListener",
+        "body": "<EventListener event={$1} handler={$2} />",
+        "description": ""
+    },
+    "ExceptionList": {
+        "prefix": "ExceptionList",
+        "body": "<ExceptionList items={$1} />",
+        "description": ""
+    },
+    "Focus": {
+        "prefix": "Focus",
+        "body": [
+            "<Focus>",
+            "\t$1",
+            "</Focus>"
+        ],
+        "description": ""
+    },
+    "FooterHelp": {
+        "prefix": "FooterHelp",
+        "body": [
+            "<FooterHelp>",
+            "\t$1",
+            "</FooterHelp>"
+        ],
+        "description": ""
+    },
+    "Form": {
+        "prefix": "Form",
+        "body": [
+            "<Form onSubmit={$1}>",
+            "\t$2",
+            "</Form>"
+        ],
+        "description": ""
+    },
+    "FormLayout": {
+        "prefix": "FormLayout",
+        "body": [
+            "<FormLayout>",
+            "\t$1",
+            "</FormLayout>"
+        ],
+        "description": ""
+    },
+    "FormLayout.Group": {
+        "prefix": "FormLayout.Group",
+        "body": [
+            "<FormLayout.Group $1>",
+            "\t$2",
+            "</FormLayout.Group>"
+        ],
+        "description": ""
+    },
+    "Heading": {
+        "prefix": "Heading",
+        "body": [
+            "<Heading $1>",
+            "\t$2",
+            "</Heading>"
+        ],
+        "description": ""
+    },
+    "Icon": {
+        "prefix": "Icon",
+        "body": "<Icon source={$1} />",
+        "description": ""
+    },
+    "Image": {
+        "prefix": "Image",
+        "body": "<Image alt={$1} source={$2} />",
+        "description": ""
+    },
+    "Indicator": {
+        "prefix": "Indicator",
+        "body": "<Indicator $1/>",
+        "description": ""
+    },
+    "KeyboardKey": {
+        "prefix": "KeyboardKey",
+        "body": [
+            "<KeyboardKey>",
+            "\t$1",
+            "</KeyboardKey>"
+        ],
+        "description": ""
+    },
+    "KeypressListener": {
+        "prefix": "KeypressListener",
+        "body": "<KeypressListener keyCode={$1} handler={$2} />",
+        "description": ""
+    },
+    "Label": {
+        "prefix": "Label",
+        "body": [
+            "<Label id={$1}>",
+            "\t$2",
+            "</Label>"
+        ],
+        "description": ""
+    },
+    "Labelled": {
+        "prefix": "Labelled",
+        "body": [
+            "<Labelled id={$1} label={$2}>",
+            "\t$3",
+            "</Labelled>"
+        ],
+        "description": ""
+    },
+    "Layout": {
+        "prefix": "Layout",
+        "body": [
+            "<Layout $1>",
+            "\t$2",
+            "</Layout>"
+        ],
+        "description": ""
+    },
+    "Layout.AnnotatedSection": {
+        "prefix": "Layout.AnnotatedSection",
+        "body": [
+            "<Layout.AnnotatedSection $1>",
+            "\t$2",
+            "</Layout.AnnotatedSection>"
+        ],
+        "description": ""
+    },
+    "Layout.Section": {
+        "prefix": "Layout.Section",
+        "body": [
+            "<Layout.Section $1>",
+            "\t$2",
+            "</Layout.Section>"
+        ],
+        "description": ""
+    },
+    "Link": {
+        "prefix": "Link",
+        "body": [
+            "<Link $1>",
+            "\t$2",
+            "</Link>"
+        ],
+        "description": ""
+    },
+    "List": {
+        "prefix": "List",
+        "body": [
+            "<List $1>",
+            "\t$2",
+            "</List>"
+        ],
+        "description": ""
+    },
+    "List.Item": {
+        "prefix": "List.Item",
+        "body": [
+            "<List.Item>",
+            "\t$1",
+            "</List.Item>"
+        ],
+        "description": ""
+    },
+    "Modal": {
+        "prefix": "Modal",
+        "body": [
+            "<Modal open={$1} onClose={$2}>",
+            "\t$3",
+            "</Modal>"
+        ],
+        "description": ""
+    },
+    "Modal.Section": {
+        "prefix": "Modal.Section",
+        "body": [
+            "<Modal.Section $1>",
+            "\t$2",
+            "</Modal.Section>"
+        ],
+        "description": ""
+    },
+    "OptionList": {
+        "prefix": "OptionList",
+        "body": "<OptionList selected={$1} onChange={$2} />",
+        "description": ""
+    },
+    "Page": {
+        "prefix": "Page",
+        "body": [
+            "<Page title={$1}>",
+            "\t$2",
+            "</Page>"
+        ],
+        "description": ""
+    },
+    "PageActions": {
+        "prefix": "PageActions",
+        "body": "<PageActions $1/>",
+        "description": ""
+    },
+    "Pagination": {
+        "prefix": "Pagination",
+        "body": "<Pagination $1/>",
+        "description": ""
+    },
+    "Popover": {
+        "prefix": "Popover",
+        "body": [
+            "<Popover active={$1} activator={$2} onClose={$3}>",
+            "\t$4",
+            "</Popover>"
+        ],
+        "description": ""
+    },
+    "Popover.Pane": {
+        "prefix": "Popover.Pane",
+        "body": [
+            "<Popover.Pane $1>",
+            "\t$2",
+            "</Popover.Pane>"
+        ],
+        "description": ""
+    },
+    "Popover.Section": {
+        "prefix": "Popover.Section",
+        "body": [
+            "<Popover.Section>",
+            "\t$1",
+            "</Popover.Section>"
+        ],
+        "description": ""
+    },
+    "Portal": {
+        "prefix": "Portal",
+        "body": [
+            "<Portal $1>",
+            "\t$2",
+            "</Portal>"
+        ],
+        "description": ""
+    },
+    "PositionedOverlay": {
+        "prefix": "PositionedOverlay",
+        "body": "<PositionedOverlay active={$1} activator={$2} render={$3} />",
+        "description": ""
+    },
+    "ProgressBar": {
+        "prefix": "ProgressBar",
+        "body": "<ProgressBar $1/>",
+        "description": ""
+    },
+    "RadioButton": {
+        "prefix": "RadioButton",
+        "body": "<RadioButton label={$1} />",
+        "description": ""
+    },
+    "RangeSlider": {
+        "prefix": "RangeSlider",
+        "body": "<RangeSlider label={$1} value={$2} onChange={$3} />",
+        "description": ""
+    },
+    "ResourceList": {
+        "prefix": "ResourceList",
+        "body": "<ResourceList items={$1} renderItem={$2} />",
+        "description": ""
+    },
+    "ResourceList.Item": {
+        "prefix": "ResourceList.Item",
+        "body": [
+            "<ResourceList.Item id={$1}>",
+            "\t$2",
+            "</ResourceList.Item>"
+        ],
+        "description": ""
+    },
+    "ResourceList.FilterControl": {
+        "prefix": "ResourceList.FilterControl",
+        "body": "<ResourceList.FilterControl onSearchChange={$1} />",
+        "description": ""
+    },
+    "Scrollable": {
+        "prefix": "Scrollable",
+        "body": [
+            "<Scrollable $1>",
+            "\t$2",
+            "</Scrollable>"
+        ],
+        "description": ""
+    },
+    "Select": {
+        "prefix": "Select",
+        "body": "<Select label={$1} />",
+        "description": ""
+    },
+    "SettingAction": {
+        "prefix": "SettingAction",
+        "body": [
+            "<SettingAction $1>",
+            "\t$2",
+            "</SettingAction>"
+        ],
+        "description": ""
+    },
+    "SettingToggle": {
+        "prefix": "SettingToggle",
+        "body": [
+            "<SettingToggle $1>",
+            "\t$2",
+            "</SettingToggle>"
+        ],
+        "description": ""
+    },
+    "SkeletonBodyText": {
+        "prefix": "SkeletonBodyText",
+        "body": "<SkeletonBodyText $1/>",
+        "description": ""
+    },
+    "SkeletonDisplayText": {
+        "prefix": "SkeletonDisplayText",
+        "body": "<SkeletonDisplayText $1/>",
+        "description": ""
+    },
+    "SkeletonPage": {
+        "prefix": "SkeletonPage",
+        "body": [
+            "<SkeletonPage $1>",
+            "\t$2",
+            "</SkeletonPage>"
+        ],
+        "description": ""
+    },
+    "Spinner": {
+        "prefix": "Spinner",
+        "body": "<Spinner $1/>",
+        "description": ""
+    },
+    "Stack": {
+        "prefix": "Stack",
+        "body": [
+            "<Stack $1>",
+            "\t$2",
+            "</Stack>"
+        ],
+        "description": ""
+    },
+    "Stack.Item": {
+        "prefix": "Stack.Item",
+        "body": [
+            "<Stack.Item $1>",
+            "\t$2",
+            "</Stack.Item>"
+        ],
+        "description": ""
+    },
+    "Sticky": {
+        "prefix": "Sticky",
+        "body": [
+            "<Sticky $1>",
+            "\t$2",
+            "</Sticky>"
+        ],
+        "description": ""
+    },
+    "Subheading": {
+        "prefix": "Subheading",
+        "body": [
+            "<Subheading $1>",
+            "\t$2",
+            "</Subheading>"
+        ],
+        "description": ""
+    },
+    "Tabs": {
+        "prefix": "Tabs",
+        "body": [
+            "<Tabs selected={$1} tabs={$2}>",
+            "\t$3",
+            "</Tabs>"
+        ],
+        "description": ""
+    },
+    "Tag": {
+        "prefix": "Tag",
+        "body": [
+            "<Tag $1>",
+            "\t$2",
+            "</Tag>"
+        ],
+        "description": ""
+    },
+    "TextContainer": {
+        "prefix": "TextContainer",
+        "body": [
+            "<TextContainer $1>",
+            "\t$2",
+            "</TextContainer>"
+        ],
+        "description": ""
+    },
+    "TextField": {
+        "prefix": "TextField",
+        "body": "<TextField label={$1} />",
+        "description": ""
+    },
+    "TextStyle": {
+        "prefix": "TextStyle",
+        "body": [
+            "<TextStyle $1>",
+            "\t$2",
+            "</TextStyle>"
+        ],
+        "description": ""
+    },
+    "Thumbnail": {
+        "prefix": "Thumbnail",
+        "body": "<Thumbnail source={$1} alt={$2} />",
+        "description": ""
+    },
+    "Tooltip": {
+        "prefix": "Tooltip",
+        "body": [
+            "<Tooltip content={$1}>",
+            "\t$2",
+            "</Tooltip>"
+        ],
+        "description": ""
+    },
+    "Truncate": {
+        "prefix": "Truncate",
+        "body": [
+            "<Truncate>",
+            "\t$1",
+            "</Truncate>"
+        ],
+        "description": ""
+    },
+    "UnstyledLink": {
+        "prefix": "UnstyledLink",
+        "body": [
+            "<UnstyledLink url={$1}>",
+            "\t$2",
+            "</UnstyledLink>"
+        ],
+        "description": ""
+    },
+    "VisuallyHidden": {
+        "prefix": "VisuallyHidden",
+        "body": [
+            "<VisuallyHidden>",
+            "\t$1",
+            "</VisuallyHidden>"
+        ],
+        "description": ""
+    }
+}
