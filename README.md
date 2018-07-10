@@ -1,6 +1,6 @@
 # polaris-snippets README
 
-Polaris related snippets
+[Polaris](https://polaris.shopify.com/) related snippets
 
 <!-- ## Features -->
 
