@@ -2,7 +2,7 @@
     "name": "polaris-snippets",
     "displayName": "Polaris Snippets",
     "description": "Snippets for the current release of polaris",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "AndrewMusgrave",
     "repository": {
         "type": "git",
