@@ -2,14 +2,14 @@
     "name": "polaris-snippets",
     "displayName": "Polaris Snippets",
     "description": "Snippets for the current release of polaris",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "AndrewMusgrave",
     "repository": {
         "type": "git",
         "url": "https://github.com/AndrewMusgrave/polaris-snippets.git"
     },
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.14.0"
     },
     "categories": [
         "Snippets"
