@@ -5,12 +5,12 @@
 ## Usage
 ![Polaris example](https://cl.ly/1J272W3t453v/Screen%20Recording%202018-07-10%20at%2010.00%20PM.gif)
 
-## Supported languages ( file extensions )
+## Supported languages (file extensions)
 
-* JavaScript (.js)
-* JavaScript XML (.jsx)
-* Typescript (.ts)
-* Typescript XML (.tsx)
+* JavaScript ( .js )
+* JavaScript XML ( .jsx )
+* Typescript ( .ts )
+* Typescript XML ( .tsx )
 
 <!-- ## Features -->
 
